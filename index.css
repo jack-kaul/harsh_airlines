@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    font-family: Courier, monospace,Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+.corona-info{
+    background-color: #ff9c04;
+    font-size:28px;
+    /* padding: 10px; */
+    /* float: left; */
+    width: 100%;
+}
+.home-text{
+    font-size: 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    float: left;
+    /* margin-left: 6%; */
+    display: block;
+    padding:8px; 
+}
+.home-text a{
+    color: white;
+    text-decoration: none;
+}
+.home-text a:hover{
+    font-weight: 700;
+}
+.navbar-top{
+    width: 100%;
+    background-color:#04246c;
+    height: 57px;
+}
+.navbar-top ul{
+    list-style:none;
+    display: inline;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 25px;
+}
+.navbar-top ul li{
+    float:right;
+}
+.navbar-top ul li a{
+    display: block;
+    color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-right: 20px;
+  text-decoration: none; 
+  border-right: 1px solid white;
+  border-bottom: none;
+}
+.navbar-top ul li a:hover {
+    font-weight: 800;
+    text-decoration: underline;
+  }
+.bg-image{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
+.container-image{
+    position: relative;
+}
+.image-text{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.container-image a{
+    color:black;
+    text-decoration: none;
+}
+.top-booking-container{
+    width:70%;
+    margin: auto;
+    height: 400px;
+    background-color: lightgrey;
+    box-shadow: 5px 10px 8px #888888;
+}
+.booking-container ul{
+    list-style:none;
+     padding:0; 
+    background-color: #333;
+    font-size: 25px;
+}
+.booking-container ul li button{
+    color: white;
+  text-align: center;
+  background-color: black;
+  height:40px;
+  float: left;
+  width: 20%;
+}
+.booking-container ul li button:hover{
+    background-color:#04246c;
+    font-weight: 700;
+}
+.radio-text{
+    font-weight: 700;
+    font-size: 20px;
+}
+input[type="text"]{
+    height: 25px;
+    border: 2px solid black;
+    width: 14%;
+    
+}
+::placeholder{
+    color: black;
+    font-size:20px;
+}
+input[type="date"]{
+    height: 25px;
+    border: 2px solid black;
+    width:14%;
+    border-radius: 5px;
+}
+.date-text{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+input[type="submit"]{
+    background-color: #04246c;
+    color: white;
+    height: 40px;
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 2px;
+    float: right;
+    font-size: 20px;
+}
+.manage-booking
+{
+    margin-left: 15px;
+}
+.manage-booking input[type = "text"]
+{
+    height: 25px;
+    border: 2px solid black;
+    width: 35%;
+    font-size: 20px;
+    height: 35px;
+    margin-right: 25px;   
+}
+.check-in
+{
+    margin-left: 15px;
+}
+.check-in input[type="text"]
+{
+    height: 25px;
+    border: 2px solid black;
+    width: 35%;
+    font-size: 20px;
+    height: 35px;
+    margin-right: 25px; 
+}
+.flight-status 
+{
+    margin-left: 15px;
+}
+.flight-status input[type="radio"]
+{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.flight-status input[type="text"],input[type="date"]
+{
+    margin-top: 25px;
+    height: 25px;
+    border: 2px solid black;
+    width: 25%;
+    font-size: 20px;
+    height: 35px;
+    margin-right: 25px; 
+}
+.flight-status input[type="submit"]
+{
+    margin-top: 20px;
+    margin-left: 35%;
+    float: left;
+}
+.flight-schedule{
+    margin-left:15px;
+}
+.flight-schedule input[type="text"]
+{
+    margin-top: 25px;
+    height: 25px;
+    border: 2px solid black;
+    width: 45%;
+    font-size: 20px;
+    height: 35px;
+    margin-right: 25px; 
+}
+.flight-schedule input[type="date"]
+{
+    margin-top: 25px;
+    height: 25px;
+    border: 2px solid black;
+    width: 25%;
+    font-size: 20px;
+    height: 35px;
+    margin-right: 25px; 
+}
+.xfont
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+.flight-schedule input[type="submit"]
+{
+    width: 25%;
+    margin-top: 25px;
+    margin-left: 35%;
+    float: left;
+}

@@ -1,0 +1,67 @@
+.mainbox
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+}
+.signin{
+  width: 100%;
+}
+input[type="submit"]
+{
+  float: left;
+  margin-bottom: 20px;
+  bottom: 20px;
+}
+.signin input[type="text"]
+{
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-right: 10%;
+}
+.signin input[type="password"]
+{
+  height: 25px;
+  border: 2px solid black;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-right: 10%;
+}
+input[type="email"]
+{
+  height: 25px;
+  border: 2px solid black;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 20px;
+    margin-right: 10%;
+
+} 
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+  }
+  .form-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
